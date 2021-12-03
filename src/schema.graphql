@@ -1,3 +1,19 @@
+type InterventionRequest {
+  id: ID!
+  author: Int
+  customerID: Int
+  buildingID: Int
+  batteryID: Int
+  columnID: Int
+  elevatorID: Int
+  employeeID: Int
+  interventionStart:
+  interventionEnd:
+  result:
+  report:
+  status:
+}
+
 type Intervention {
   id: ID!
   start_time_and_date: String!
